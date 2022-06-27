@@ -52,7 +52,7 @@ export default function SignIn() {
   useEffect(() => {
      const path = pathname.split("/")[1]
      setPage(path)
-  }, [])
+  }, [pathname])
 
   const onSubmitHandler = (e) => {
     e.preventDefault();
