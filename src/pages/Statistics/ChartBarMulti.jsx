@@ -120,7 +120,7 @@ const data = {
   labels,
   datasets: [
     {
-        type: 'line',
+        type: 'bar',
         label: 'Income',
         backgroundColor: "#98FB98",
         data: [...incomeData],
@@ -128,7 +128,7 @@ const data = {
         borderWidth: 2,
       },
     {
-      type: 'line',
+      type: 'bar',
       label: 'Expenses',
       backgroundColor: 'rgb(255, 99, 132)',
       borderColor: 'rgb(255, 99, 132)',
