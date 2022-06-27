@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
 import {Context} from '../../context/Context'
-import HeaderLogo from "../../components/HeaderLogo";
+import Logo from "../../components/Logo";
 import PageTitle from "../../components/PageTitle";
 import {
   Grid,
@@ -74,7 +74,7 @@ export default function SignIn() {
   return (
     <Grid container className={mainContainer}>
       <Grid item xs={10} sm={8} md={4}>
-      <HeaderLogo />
+      <Logo />
       <PageTitle text={page === "signup" ? "Sign Up" : "Sign In"} />
       <form onSubmit={onSubmitHandler}>
         <FormGroup sx={{ mt: 5 }}>

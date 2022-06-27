@@ -21,7 +21,6 @@ export default function Overview() {
     <Navbar/>
     <MainPagesWrapper>
     <Grid
-    
     >
       <Grid item xs={12} sm={8} md={5} className={itemWrapper}>
     <OverviewCategory title={"Income"} typeCat={"income"}/>
